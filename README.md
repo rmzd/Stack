@@ -1,1 +1,1 @@
-# StackQueue
+# Stack
