@@ -8,10 +8,10 @@ template <class T>
 class TStack
 {
 protected:
-    T** data;      // массив указателей на элементы стека
-    int len;       // максимальная длина стека
-    bool isNew;    // владеет ли объект памятью
-    int top;       // индекс верхнего элемента
+    T** data;      
+    int len;      
+    bool isNew;    
+    int top;       
 public:
     TStack();
     TStack(int len_);
